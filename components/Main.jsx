@@ -1,10 +1,13 @@
-import { View, Text } from "react-native";
+import { Link } from "expo-router"; 
+import { Pressable, ScrollView, Text, ActivityIndicator } from "react-native";
 
 export function Main() {
   return (
-    <View>
-      <Text>Main component
-      </Text>
-    </View>
+    <ScrollView>
+      <Link asChild href="/">
+        <Pressable>
+          <Text>Main component</Text>
+        </Pressable>
+    </ScrollView>
   )
 }
