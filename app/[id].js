@@ -6,7 +6,9 @@ export default function Detail() {
     <View>
       <View>
         <Text>Detalle</Text>
-        <Link href="/">atrás</Link>
+        <Link href="/">
+          atrás
+        </Link>
       </View>
     </View>
   );
