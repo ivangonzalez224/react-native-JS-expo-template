@@ -1,10 +1,10 @@
 import { Stack } from "expo-router";
-import { View, Text } from "react-native";
+import { View, SafeAreaView } from "react-native";
 
 export default function Layout() {
   return (
-    <View>
-      <Stack />
-    </View>  
+  	<SafeAreaView>
+	  <Stack />
+    </SafeAreaView> 
   );
 }
